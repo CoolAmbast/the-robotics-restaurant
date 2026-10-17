@@ -51,7 +51,7 @@ const HomePage: React.FC = () => {
 export const App: React.FC = () => {
   return (
     <ThemeProvider defaultTheme="warmRustic">
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <ScrollManager />
         <Routes>
           <Route path="/" element={<HomePage />} />
