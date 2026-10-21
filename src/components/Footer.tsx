@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Heart, Phone, MapPin, Clock } from 'lucide-react'
 import { RoboLogo } from './RoboLogo'
 
@@ -48,12 +49,12 @@ export const Footer: React.FC = () => {
           
           {/* Brand Column */}
           <div className="lg:col-span-5 space-y-4">
-            <div className="w-10 h-1 bg-[var(--accent)] rounded-full mb-4" aria-hidden="true" />
+            <div className="w-10 h-1 bg-[var(--tertiary)] rounded-full mb-4" aria-hidden="true" />
             
             <div className="flex items-center gap-3">
               <RoboLogo className="w-10 h-10 shrink-0" />
               <span className="font-serif-display text-2xl font-bold tracking-tight text-[var(--text-on-surface-strong)]">
-                Robotics Restaurant Purnia
+                The Robotics Restaurant Purnia
               </span>
             </div>
 
@@ -65,14 +66,14 @@ export const Footer: React.FC = () => {
               Purnia's premier futuristic dining experience featuring automated robot food service, multi-cuisine delicacies, and birthday celebrations.
             </p>
 
-            {/* Social Links with required exact hrefs */}
+            {/* Social Links */}
             <div className="flex items-center gap-3 pt-2">
               <a
                 href="https://www.instagram.com/theroboticsrestaurant/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Follow us on Instagram"
-                className="w-10 h-10 rounded-xl bg-white/5 border border-white/15 flex items-center justify-center text-[var(--text-on-surface-strong)]/80 hover:text-[var(--accent)] hover:border-[var(--accent)] hover:bg-[var(--accent)]/10 transition-all duration-200"
+                className="w-10 h-10 rounded-xl bg-white/5 border border-white/15 flex items-center justify-center text-[var(--text-on-surface-strong)]/80 hover:text-[var(--tertiary)] hover:border-[var(--tertiary)] hover:bg-[var(--tertiary)]/10 transition-all duration-200"
               >
                 <InstagramIcon className="w-5 h-5" />
               </a>
@@ -82,7 +83,7 @@ export const Footer: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Follow us on Facebook"
-                className="w-10 h-10 rounded-xl bg-white/5 border border-white/15 flex items-center justify-center text-[var(--text-on-surface-strong)]/80 hover:text-[var(--accent)] hover:border-[var(--accent)] hover:bg-[var(--accent)]/10 transition-all duration-200"
+                className="w-10 h-10 rounded-xl bg-white/5 border border-white/15 flex items-center justify-center text-[var(--text-on-surface-strong)]/80 hover:text-[var(--tertiary)] hover:border-[var(--tertiary)] hover:bg-[var(--tertiary)]/10 transition-all duration-200"
               >
                 <FacebookIcon className="w-5 h-5" />
               </a>
@@ -92,38 +93,38 @@ export const Footer: React.FC = () => {
           {/* Quick Links Column */}
           <div className="lg:col-span-3 sm:col-span-1">
             <h4 className="text-xs font-bold uppercase tracking-[0.14em] text-[var(--text-on-surface-strong)] mb-5">
-              Quick Links
+              Pages &amp; Navigation
             </h4>
             <ul className="space-y-3 text-sm text-[var(--text-on-surface-strong)]/75">
               <li>
-                <a href="#menu" className="hover:text-[var(--accent)] transition-colors">
-                  Menu Highlights
-                </a>
+                <Link to="/" className="hover:text-[var(--tertiary)] transition-colors">
+                  Landing Page
+                </Link>
               </li>
               <li>
-                <a href="/menu" className="hover:text-[var(--accent)] transition-colors font-semibold text-[var(--accent)]">
-                  Full 100+ Dish Menu →
-                </a>
+                <Link to="/menu" className="hover:text-[var(--tertiary)] transition-colors font-semibold text-[var(--tertiary)]">
+                  Full 115+ Dish Menu →
+                </Link>
               </li>
               <li>
-                <a href="#story" className="hover:text-[var(--accent)] transition-colors">
-                  Our Story
-                </a>
+                <Link to="/chef" className="hover:text-[var(--tertiary)] transition-colors">
+                  Meet the Chef &amp; Kitchen
+                </Link>
               </li>
               <li>
-                <a href="#chef" className="hover:text-[var(--accent)] transition-colors">
-                  Meet the Kitchen
-                </a>
+                <Link to="/story" className="hover:text-[var(--tertiary)] transition-colors">
+                  Our Story &amp; Tech
+                </Link>
               </li>
               <li>
-                <a href="#reviews" className="hover:text-[var(--accent)] transition-colors">
-                  Google Reviews (3.8★)
-                </a>
+                <Link to="/reviews" className="hover:text-[var(--tertiary)] transition-colors">
+                  Reviews &amp; Ratings (3.8★)
+                </Link>
               </li>
               <li>
-                <a href="#reservation" className="hover:text-[var(--accent)] transition-colors">
-                  Reserve Table / Party
-                </a>
+                <Link to="/visit" className="hover:text-[var(--tertiary)] transition-colors">
+                  Visit Us &amp; Directions
+                </Link>
               </li>
             </ul>
           </div>
@@ -153,10 +154,13 @@ export const Footer: React.FC = () => {
                   +91 92969 23861
                 </a>
               </li>
-              <li className="pt-1">
-                <span className="text-xs text-[var(--tertiary)] font-semibold">
-                  Free Birthday &amp; Anniversary Decoration Available
-                </span>
+              <li className="pt-2">
+                <Link
+                  to="/visit#reservation"
+                  className="inline-block px-4 py-2 bg-[var(--tertiary)] text-[var(--surface-strong)] font-bold text-xs uppercase tracking-wider rounded-sm hover:bg-[#d4a060] transition-colors"
+                >
+                  Reserve Table / Party
+                </Link>
               </li>
             </ul>
           </div>
@@ -165,10 +169,10 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[var(--text-on-surface-strong)]/50">
-          <p>© 2026 Robotics Restaurant Purnia. All rights reserved.</p>
+          <p>© 2026 The Robotics Restaurant Purnia. All rights reserved.</p>
           <p className="flex items-center gap-1.5">
-            <span>Designed with</span>
-            <Heart className="w-3.5 h-3.5 text-[var(--accent)] fill-[var(--accent)]" />
+            <span>Crafted with</span>
+            <Heart className="w-3.5 h-3.5 text-[var(--tertiary)] fill-[var(--tertiary)]" />
             <span>&amp; robotic precision in Purnia, Bihar.</span>
           </p>
         </div>

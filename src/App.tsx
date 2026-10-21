@@ -1,16 +1,12 @@
 import React, { useEffect } from 'react'
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { ThemeProvider } from './theme'
-import { Navbar } from './components/Navbar'
-import { HeroSection } from './components/HeroSection'
-import { MenuSection } from './components/MenuSection'
-import { StorySection } from './components/StorySection'
-import { ChefSection } from './components/ChefSection'
-import { ReviewsSection } from './components/ReviewsSection'
-import { VisitSection } from './components/VisitSection'
-import { ReservationSection } from './components/ReservationSection'
-import { Footer } from './components/Footer'
+import { LandingPage } from './pages/LandingPage'
 import { FullMenuPage } from './pages/FullMenuPage'
+import { ChefPage } from './pages/ChefPage'
+import { StoryPage } from './pages/StoryPage'
+import { ReviewsPage } from './pages/ReviewsPage'
+import { VisitPage } from './pages/VisitPage'
 
 // Automatically scroll to hash or top on route transition
 const ScrollManager: React.FC = () => {
@@ -30,32 +26,30 @@ const ScrollManager: React.FC = () => {
   return null
 }
 
-const HomePage: React.FC = () => {
-  return (
-    <div className="min-h-screen flex flex-col w-full selection:bg-[var(--accent)]/30 selection:text-[var(--text)]">
-      <Navbar />
-      <main className="flex-1 w-full">
-        <HeroSection />
-        <MenuSection />
-        <StorySection />
-        <ChefSection />
-        <ReviewsSection />
-        <VisitSection />
-        <ReservationSection />
-      </main>
-      <Footer />
-    </div>
-  )
-}
-
 export const App: React.FC = () => {
   return (
     <ThemeProvider defaultTheme="warmRustic">
       <BrowserRouter basename={import.meta.env.BASE_URL}>
         <ScrollManager />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          {/* 1. Landing Page */}
+          <Route path="/" element={<LandingPage />} />
+
+          {/* 2. Menu Page */}
           <Route path="/menu" element={<FullMenuPage />} />
+
+          {/* 3. Chef Page */}
+          <Route path="/chef" element={<ChefPage />} />
+
+          {/* 4. Our Story Page */}
+          <Route path="/story" element={<StoryPage />} />
+          <Route path="/our-story" element={<StoryPage />} />
+
+          {/* 5. Reviews Page */}
+          <Route path="/reviews" element={<ReviewsPage />} />
+
+          {/* 6. Visit Page */}
+          <Route path="/visit" element={<VisitPage />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

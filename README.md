@@ -1,106 +1,12 @@
-The Robotics Restaurant is Purnia’s first futuristic, tech-themed dining spot featuring automated robot food service.
-
-Location & Contact
-
-• Address: Jhanda Chowk Rd (Janta Chowk / Bhatta Bazar), opposite Gokul Sweets, Mehboob Khan Tola, Purnia, Bihar 854301
-• Phone / WhatsApp: 92969 23861
-• Opening Hours: Open daily from 12:00 PM to 11:00 PM
-
-Highlights & Offerings
-
-• Concept: Interactive robot servers deliver food directly to dining tables.
-• Menu: Multi-cuisine selection covering Indian (including dishes like chicken biryani), Chinese, and Continental options.
-• Drinks: 15+ mocktail flavors.
-• Events & Parties: Facilities for birthday and anniversary celebrations (with complimentary decoration packages available) and small group or family gatherings.
-• Price Range: Typically ₹200 to ₹400 per person
+# Update menu items
+Robo Veg Starter BitesChilli Paneer Dry: ₹249/-   Veg Manchurian Dry: ₹219/-   Crispy Chilli Baby Corn: ₹259/-   Mushroom Chilli Dry: ₹269/-   Crispy Chilli Potato: ₹199/-   Paneer Tikka: ₹279/-   Paneer Malai Tikka: ₹269/-   Tandoori Mushroom: ₹269/-   Hakka Noodles Veg: ₹199/-   Robo Non Veg Starter BitesChicken Chilli: ₹269/-   Drums of Heaven: ₹299/-   Chicken 65: ₹259/-   Chicken Hakka Noodles: ₹209/-   Chicken Tikka: ₹259/-   Chicken Malai Tikka: ₹299/-   Chicken Tandoori: ₹699/-   Chicken Haryali Kebab: ₹299/-   Chicken Seekh Kebab: ₹349/-   Reshmi Chicken Kebab: ₹299/-   Non Veg Platter: ₹649/-   SoupVeg Manchow: ₹129/-   Chicken Manchow: ₹149/-   Clear Veg Soup: ₹99/-   Chicken Soup: ₹149/-   Hot And Sour: ₹129/-   Veg MaincoursePaneer Lababdar: ₹269/-   Paneer Chilli Gravy: ₹259/-   Paneer Tikka Masala: ₹289/-   Kadhai Paneer: ₹259/-   Paneer Butter Masala: ₹259/-   Shahi Paneer: ₹279/-   Dal Fry: ₹129/-   Dal Makhni: ₹229/-   Dal Tadka: ₹179/-   Aloo Jeera: ₹169/-   Aloo Dum: ₹169/-   Matar Paneer: ₹279/-   Methi Matar Malai: ₹269/-   Palak Paneer: ₹279/-   Mix Veg: ₹199/-   Dal Panchrangi: ₹259/-   Malai Kofta: ₹279/-   Allo Gobi (Seasonal): ₹179/-   Additional VegMasala Mushroom: ₹269/-   Muttor Mushroom: ₹269/-   Paneer Mushroom: ₹299/-   Non Veg MaincourseChicken Butter Masala: ₹399/-   Chicken Curry: ₹279/-   Chicken Kadhai: ₹389/-   Chicken Bharta: ₹389/-   Chicken Tikka Butter Masala: ₹349/-   Dehati Chicken: ₹349/-   Mutton Curry: ₹449/-   Mutton Roganjosh: ₹469/-   Mutton Handi: ₹519/-   Mutton Kasa: ₹519/-   Chief Special Mutton Bhunna: ₹599/-   Chicken Do Pyaza: ₹379/-   Chicken Kolhapuri: ₹379/-   Chicken Lababdar: ₹379/-   Awadhi Murg: ₹399/-   ThaliVeg Thali: ₹349/-   (Includes Paneer, Mix Veg, Dal, Rice, Roti 2 Pc, Gulab Jamun)   Non Veg Thali: ₹399/-   (Includes Chicken Curry 2 Pc / Butter Chicken 2 Pc, Tikka 2 Pc, Roti, Rice)   Breads CircuitTawa Roti: ₹29/- Per Pc   Tawa Roti with Butter: ₹35/- Per Pc   Butter Phulka: ₹49/- Per Pc   Tandoori Roti: ₹39/- Per Pc   Butter Tandoori Roti: ₹45/- Per Pc   Plain Naan: ₹49/- Per Pc   Butter Naan: ₹55/- Per Pc   Garlic Naan: ₹69/- Per Pc   Butter Garlic Naan: ₹74/- Per Pc   Laccha Paratha: ₹59/- Per Pc   Masala Kulcha: ₹79/- Per Pc   Missi Roti: ₹49/- Per Pc   Cheese Naan: ₹119/- Per Pc   Paneer Kulcha: ₹89/- Per Pc   RiceChicken Biryani: ₹299/-   Egg Biryani: ₹199/-   Mutton Biryani: ₹369/-   Veg Biryani: ₹219/-   Veg Fried Rice: ₹199/-   Chicken Fried Rice: ₹259/-   Egg Fried Rice: ₹229/-   Stem Rice: ₹99/-   Jeera Rice: ₹119/-   Veg Pulao: ₹169/-   Kashmiri Pulao: ₹199/-   Mocktail & DrinksBlue Lagoon: ₹169/-   Virgin Mojito: ₹179/-   Pink Lady: ₹159/-   Hot Chocolate: ₹169/-   Mongo Martini: ₹159/-   Red Lime Soda: ₹69/-   Green Screwdriver: ₹169/-   Black Berry Mojito: ₹169/-   Mongo Mojito: ₹159/-   Blueberry Mojito: ₹179/-   Blue Coconut Sky Mojito: ₹179/-   Kivi Mojito: ₹189/-   Virgian Pinacolada: ₹159/-   Coconut Mojito: ₹179/-   Green Apple Mojito: ₹179/-   Orange Sunset: ₹149/-   Cucumber Mint Cooler: ₹149/-   Green Minat Mojito: ₹179/-   Sweet Heart: ₹159/-   Watermelon Mojito: ₹159/-   Lemon Jinjar Mojito: ₹179/-   Lichi Martini: ₹179/-   Fresh Lime Soda: ₹69/-   Cold Drink: ₹59/-   Masala Cold Drink: ₹79/-   ShakeVanilla Shake: ₹169/-   Strawberry Shake: ₹159/-   Chocolate Shake: ₹179/-   Banana Shake: ₹169/-   Mango Shake: ₹179/-   Chocolate & Dessert ShakesOreo Shake: ₹169/-   KitKat Shake: ₹179/-   Brownie Thickshake: ₹179/-   Cold Coffee with Ice Cream Shake: ₹199/-   Snickers Shake: ₹179/-   DessertGulab Jamun - 2 picc: ₹89/-   Gulab Jamun With Icecream - 1 Scoop + 1 Gulab Jamun: ₹99/-   Gulab Jamun With Icecream - 2 Scoop + 2 Gulab Jamun: ₹199/-   ICE Cream - 1 Scoop & Flavour: ₹69/-   ICE Cream - 2 Scoop & Flavour: ₹129/-   
 
 
-Restaurant founded in september,2026
-chef details be sample and for menu items here is the list:
 
-Food Menu
-Category Item Name Price (₹)
-Chinese - Veg Starters
-Chilli Paneer   239
-Chilli Mushroom   229
-Veg Manchurian   229
-Crispy Chilli Potato   199
-French Fries   159
-Crispy Chilli Baby Corn   239
-Chinese - Rice / NoodlesVeg Noodles   199
-   Non-Veg Noodles   229
-   Veg Fried Rice   189
-   Non-Veg Fried Rice   219
-Chinese - Non-Veg StartersChicken Lollipop   259
-   Chilli Chicken   259
-   Spicy Chicken Wings   259
-   Drums of Heaven   279
-   Chicken Manchurian   229
-Tandoor - Veg / Non-VegMushroom Tikka   229
-   Paneer Tikka   249
-   Chicken Tikka   299
-   Tandoori Chicken   349
-BreadsPlain Naan   49
-   Butter Naan   59
-   Tandoori Roti   39
-   Butter Tandoori Roti   49
-   Laccha Paratha   59
-   Masala Kulcha   79
-Indian Main Course - VegPaneer Lababdar   249
-   Paneer Butter Masala   249
-   Kadhai Paneer   239
-   Paneer Kali Mirch   239
-   Shahi Paneer   249
-   Mix Veg   219
-   Vegetable Kali Mirch   219
-Indian Main Course - Non-VegChicken Butter Masala   299
-   Chicken Kadhai   289
-   Chicken Kolhapuri   289
-   Chicken Curry   269
-   Chicken Kosha   279
-   Mutton Curry   339
-   Mutton Kosha   349
-   Mutton Champaran   349
-   Mutton Rogan Josh   359
-   Chicken Do Pyaza   349
-BiryaniVeg Biryani   199
-   Chicken Biryani   259
-   Mutton BiryaniDessertGulab Jamun89
-   Rasgulla   89
-Ice CreamVanilla   69
-   Chocolate   69
-   Strawberry   69
-   Butterscotch   79
-   Mango   79   
+for website we will make these pages:
 
+1.) Landing Page 2.) Menu page 3.) Chef Page 4.) Our Story Page 5.) Reviews Page 6.) Visit Page 
 
-Beverages Menu
-Category Item Name Price (₹)
-Choice of MojitoVirgin Mojito   149
-   Green Mint Mojito   149
-   Green Apple Mojito   179
-   Watermelon Mojito   179
-   Mango Mojito   179
-   Kiwi Mojito   179
-   Black Currant Mojito   179
-   Coconut Mojito   179
-   Blue Coconut Sky Mojito   199
-Choice of MocktailVirgin Pinacolada   229
-   Blue Lagoon   149
-   Mango Martini   179
-   Litchi Martini   179
-   Sweet Heart   179
-   Pink Lady   179
-   Guava Chilly   149
-   Strawberry Hill   149
-   Mix Fruit Punch   179
-   Fresh Juice   129
-   Bartender Special   299
-Choice of ShakeOreo Shake   199
-   Kitkat Shake   199
-   Chocolate Shake (listed as C. Shake)   149
-   Cold Coffee with Ice Cream   229
-   Vanilla Shake   149
-   Mango Shake   149
-   Strawberry Shake   149
-   Butterscotch Shake   149
+remove theme picker and let the warm theme be the default/final theme
+
+use assets folder images for styling and adding pictures to different pages
